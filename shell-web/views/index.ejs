@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+        <script src="/lib/vue/2.5.13/vue.min.js"></script>
+        <link rel="stylesheet" href="/lib/element-ui/2.1.0/index.css" />
+        <script src="/lib/element-ui/2.1.0/index.js"></script>
+        <script src="/lib/axios.min.js"></script>
+
+        <script src="/js/utils.js"></script>
+    </head>
+    <body>
+        <div id="app"></div>
+        <template class="template">
+            <main>
+                <button @click="getIp">getIp</button>
+                <p>服务器局域网IP: {{ ip }}</p>
+            </main>
+        </template>
+    </body>
+    <script>
+        // TODO: div 可编辑　消蓝框
+        new Vue({
+            el: '#app',
+            // delimiters: ['${', '}'],
+            template: $('.template').innerHTML,
+            methods: {
+                getIp() {
+                    $http('/get_ip').then((res) => {
+                        if (res.en0) {
+                            this.ip = res.en0[1].address;
+                        }
+                        if (res.wlan0) {
+                            this.ip = res.en0[1].address;
+                        }
+                    });
+                }
+            },
+            mounted() {},
+            data() {
+                return {
+                    ip: ''
+                };
+            }
+        });
+    </script>
+</html>
