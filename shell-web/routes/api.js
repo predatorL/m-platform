@@ -5,7 +5,6 @@ const Service = require('../services');
 /* GET users listing. */
 router.get('/get_ip', function(req, res, next) {
     let data = Service.getIp();
-    console.log(data);
     res.send(data);
 });
 
