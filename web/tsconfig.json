@@ -16,10 +16,10 @@
         "jsx": "preserve",
         "experimentalDecorators": true,
         "noImplicitAny": false,
-    },
-    "baseUrl": ".",
-    "paths": {
-        "@/*": ["./src/*"]
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        }
     },
     "rules": {
         "no-implicit-dependencies": ["optional", ["src"]]

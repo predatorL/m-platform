@@ -1,10 +1,8 @@
-import * as posts from './posts';
-import * as profile from './profile';
-import * as comments from './comments';
-import * as login from './login';
+import * as today from './today';
+// import * as history from './history';
+import * as statistic from './statistic';
 export default {
-    posts,
-    profile,
-    comments,
-    login
+    today,
+    // history,
+    statistic
 };

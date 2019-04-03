@@ -2,7 +2,9 @@
 
 const fs = require('fs');
 const path = require('path');
-const paths = require('./paths');
+// const paths = require('./paths');
+// TODO: 需要根据参数判断项目
+const paths = require('./paths-todolist');
 
 // Make sure that including paths.js after env.js will read .env variables.
 delete require.cache[require.resolve('./paths')];

@@ -72,7 +72,7 @@ module.exports = {
   appBuild: resolveApp('build'),
   appPublic: resolveApp('public'),
   appHtml: resolveApp('public/todolist.html'),
-  appIndexJs: resolveModule(resolveApp, 'src/main-todolist.js'),
+  appIndexJs: resolveModule(resolveApp, 'src/main-todolist'),
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
   appTsConfig: resolveApp('tsconfig.json'),
