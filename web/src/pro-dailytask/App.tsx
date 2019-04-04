@@ -5,7 +5,7 @@ import store from '@/store/dailytask';
 import {Provider} from 'mobx-react';
 import Layout from './layout';
 // css
-import "antd/dist/antd.css";
+import "antd-mobile/dist/antd-mobile.min.css";
 
 class App extends Component {
   render() {
