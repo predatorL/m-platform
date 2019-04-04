@@ -6,7 +6,7 @@ const noopServiceWorkerMiddleware = require('react-dev-utils/noopServiceWorkerMi
 const ignoredFiles = require('react-dev-utils/ignoredFiles');
 // const paths = require('./paths');
 // TODO: 需要根据参数判断项目
-const paths = require('./paths-todolist');
+const paths = require('./paths-dailytask');
 
 const fs = require('fs');
 

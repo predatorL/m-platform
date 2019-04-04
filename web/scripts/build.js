@@ -23,7 +23,7 @@ const bfj = require('bfj');
 const configFactory = require('../config/webpack.config');
 // const paths = require('../config/paths');
 // TODO: 需要根据参数判断项目
-const paths = require('../config/paths-todolist');
+const paths = require('../config/paths-dailytask');
 
 const checkRequiredFiles = require('react-dev-utils/checkRequiredFiles');
 const formatWebpackMessages = require('react-dev-utils/formatWebpackMessages');

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Router } from 'react-router-dom';
 import history from '@/util/history';
-import store from '@/store/todolist';
+import store from '@/store/dailytask';
 import {Provider} from 'mobx-react';
 import Layout from './layout';
 // css

@@ -30,7 +30,7 @@ const {
 const openBrowser = require('react-dev-utils/openBrowser');
 // const paths = require('../config/paths');
 // TODO: 需要根据参数判断项目
-const paths = require('../config/paths-todolist');
+const paths = require('../config/paths-dailytask');
 
 const configFactory = require('../config/webpack.config');
 const createDevServerConfig = require('../config/webpackDevServer.config');

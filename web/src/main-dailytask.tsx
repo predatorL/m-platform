@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style/todolist.less';
-import App from './pro-todolist/App';
+import './style/dailytask.less';
+import App from './pro-dailytask/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));

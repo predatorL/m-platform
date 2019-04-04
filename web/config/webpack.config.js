@@ -21,7 +21,7 @@ const getCSSModuleLocalIdent = require('react-dev-utils/getCSSModuleLocalIdent')
 
 // const paths = require('./paths');
 // TODO: 需要根据参数判断项目
-const paths = require('./paths-todolist');
+const paths = require('./paths-dailytask');
 
 const getClientEnvironment = require('./env');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
