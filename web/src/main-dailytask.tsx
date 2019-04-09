@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style/dailytask.less';
+import './style/reset.css';
+import './style/h5-common.less';
+import './style/dailytask/index.less';
 import App from './pro-dailytask/App';
 import * as serviceWorker from './serviceWorker';
 
