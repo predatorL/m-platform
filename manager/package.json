@@ -1,0 +1,14 @@
+{
+  "name": "manager",
+  "version": "0.0.1",
+  "description": "moblie server/app manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "manager"
+  ],
+  "author": "lhy",
+  "license": "ISC"
+}
