@@ -10,5 +10,9 @@
     "manager"
   ],
   "author": "lhy",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "webpack": "^4.34.0"
+  }
 }
