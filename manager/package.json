@@ -4,7 +4,7 @@
   "description": "moblie server/app manager",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [
     "manager"
@@ -12,7 +12,13 @@
   "author": "lhy",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "webpack": "^4.34.0"
+    "compression": "^1.7.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.0",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-hot-middleware": "^2.25.0"
   }
 }
